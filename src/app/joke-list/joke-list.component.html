@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <ng-container *ngFor="let joke of jokes">
   <mat-card class="joke-card">
     <mat-card-header>{{ joke.setup }}</mat-card-header>
@@ -10,17 +9,3 @@
     </mat-card-actions>
   </mat-card>
 </ng-container>
-||||||| merged common ancestors
-=======
-<ng-container *ngFor="let joke of jokes">
-  <mat-card class="joke-card">
-    <mat-card-header>{{ joke.setup }}</mat-card-header>
-    <mat-card-content>
-      <p [hidden]="joke.hide">{{ joke.punchline }}</p>
-    </mat-card-content>
-    <mat-card-actions>
-      <button mat-raised-button (click)="toggle(joke)">Tell me</button>
-    </mat-card-actions>
-  </mat-card>
-</ng-container>
->>>>>>> 9dd5fa979b73a5a3314aea61cd30ffcbf7166358
